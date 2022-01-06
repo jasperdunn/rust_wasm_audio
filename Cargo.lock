@@ -233,17 +233,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9b919933a397b79c37e33b77bb2aa3dc8eb6e165ad809e58ff75bc7db2e34574"
 
 [[package]]
-name = "hello_wasm"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "cpal",
- "wasm-bindgen",
- "web-sys",
- "wee_alloc",
-]
-
-[[package]]
 name = "ident_case"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -628,6 +617,17 @@ name = "regex-syntax"
 version = "0.6.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b"
+
+[[package]]
+name = "rust_wasm_audio"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "cpal",
+ "wasm-bindgen",
+ "web-sys",
+ "wee_alloc",
+]
 
 [[package]]
 name = "rustc-hash"
